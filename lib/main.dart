@@ -9,10 +9,10 @@ void main() {
           title: Text('My First App'),
           backgroundColor: Colors.cyan[900],
         ),
-      body:Center(
-        child: 
-       Image.network("https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg"),
-      
+      body:Image( 
+       image:NetworkImage("https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg"),
+      height: 500,
+      width: 500,
       ),),
     ),
   );
