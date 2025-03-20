@@ -10,7 +10,7 @@ void main() {
           backgroundColor: Colors.cyan[900],
         ),
       body:Image( 
-       image:NetworkImage("https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg"),
+       image:AssetImage('assets/images/owl.jpeg'),
       height: 500,
       width: 500,
       ),),
