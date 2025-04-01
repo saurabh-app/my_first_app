@@ -9,10 +9,10 @@ void main() {
           title: Text('My First App'),
           backgroundColor: Colors.cyan[900],
         ),
-      body: Image(image: AssetImage('assets/images/owl.jpg'),
-      height: 500,
-      width: 500,
-      ),),
+        body: Center(
+          child: Image.asset('assets/owl.jpg'),
+        ),
+      ),
     ),
   );
 }
